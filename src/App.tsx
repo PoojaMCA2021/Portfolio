@@ -144,7 +144,7 @@ export default function App() {
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.6 }}
-          className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight"
+          className="text-5xl md:text-7xl font-bold tracking-tight leading-tight"
         >
           Hi, I'm{' '}
           <span className="bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500 text-transparent bg-clip-text">
@@ -240,12 +240,12 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="skills" className="relative z-10 px-6 py-24">
         <FadeUp>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Tech{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Stack
             </span>
-          </h2>
+          </h4>
           <p className="text-gray-500 text-center mb-16">Tools &amp; technologies I work with daily</p>
         </FadeUp>
 
@@ -270,7 +270,7 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="projects" className="relative z-10 px-6 py-24 bg-slate-950/60">
         <FadeUp>
-          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Featured{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Projects
@@ -325,7 +325,7 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="experience" className="relative z-10 px-6 py-24">
         <FadeUp>
-          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Work{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Experience
@@ -378,7 +378,7 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="contact" className="relative z-10 px-6 py-24 bg-slate-950/60">
         <FadeUp>
-          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-bold text-center mb-4">
             Get in{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Touch
