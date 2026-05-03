@@ -123,9 +123,9 @@ function App() {
           id="projects"
           className="min-h-screen px-6 py-24 bg-slate-950 relative z-10"
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+          <h3 className="text-4xl md:text-5xl font-bold text-center mb-16">
             My Projects
-          </h2>
+          </h3>
 
           <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
 
@@ -189,9 +189,9 @@ function App() {
   id="experience"
   className="min-h-screen px-6 py-24 bg-[#0f172a] relative z-10"
 >
-  <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+  <h3 className="text-4xl md:text-5xl font-bold text-center mb-16">
     Experience
-  </h2>
+  </h3>
 
   <div className="max-w-5xl mx-auto space-y-8">
 
@@ -281,9 +281,9 @@ function App() {
   id="contact"
   className="min-h-screen px-6 py-24 bg-slate-950 relative z-10"
 >
-  <h2 className="text-4xl md:text-5xl font-bold text-center mb-16">
+  <h3 className="text-4xl md:text-5xl font-bold text-center mb-16">
     Contact Me
-  </h2>
+  </h3>
 
   <div className="max-w-3xl mx-auto bg-slate-900 border border-slate-800 rounded-2xl p-10 shadow-lg">
 
