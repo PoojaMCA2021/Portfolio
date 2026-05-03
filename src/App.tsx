@@ -30,7 +30,7 @@ function App() {
           />
 
           {/* Heading */}
-          <motion.h1
+          <motion.h3
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.2 }}
@@ -40,7 +40,7 @@ function App() {
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Pooja Saini
             </span>
-          </motion.h1>
+          </motion.h3>
 
           {/* Typing Animation */}
           <motion.div
@@ -108,7 +108,7 @@ function App() {
 
             {/* LinkedIn */}
             <a
-              href="https://www.linkedin.com/"
+              href="https://www.linkedin.com/in/pooja-saini-2202/"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-400 hover:scale-125 transition duration-300"
@@ -349,7 +349,7 @@ function App() {
           rel="noopener noreferrer"
           className="text-gray-300 hover:text-white transition"
         >
-          linkedin.com
+          linkedin.com/in/pooja-saini-2202/
         </a>
       </div>
 
