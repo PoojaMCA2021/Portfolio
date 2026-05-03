@@ -4,7 +4,7 @@ import './App.css'
 import Header from './Header'
 import { motion } from 'framer-motion'
 import { FaGithub, FaLinkedin } from 'react-icons/fa'
-
+import profile from './assets/profile.jpg'
 function App() {
 
 
@@ -39,7 +39,7 @@ function App() {
 
         {/* Avatar */}
         <motion.img
-          src="/src/assets/9ac8fdbb-c96d-4a50-ad0e-122a05317ee8.jpg"
+          src={profile}
           alt="avatar"
           initial={{ scale: 0 }}
           animate={{ scale: 1 }}
