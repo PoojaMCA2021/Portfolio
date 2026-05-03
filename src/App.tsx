@@ -140,7 +140,7 @@ export default function App() {
         </motion.div>
 
         {/* Name */}
-        <motion.h1
+        <motion.h3
           initial={{ opacity: 0, y: 24 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.25, duration: 0.6 }}
@@ -150,7 +150,7 @@ export default function App() {
           <span className="bg-gradient-to-r from-orange-400 via-yellow-400 to-orange-500 text-transparent bg-clip-text">
             Pooja Saini
           </span>
-        </motion.h1>
+        </motion.h3>
 
         {/* Typing */}
         <motion.div
@@ -270,12 +270,12 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="projects" className="relative z-10 px-6 py-24 bg-slate-950/60">
         <FadeUp>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
             Featured{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Projects
             </span>
-          </h2>
+          </h4>
           <p className="text-gray-500 text-center mb-16">Things I've built that I'm proud of</p>
         </FadeUp>
 
@@ -325,12 +325,12 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="experience" className="relative z-10 px-6 py-24">
         <FadeUp>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
             Work{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Experience
             </span>
-          </h2>
+          </h4>
           <p className="text-gray-500 text-center mb-16">My professional journey so far</p>
         </FadeUp>
 
@@ -378,12 +378,12 @@ export default function App() {
       ════════════════════════════════ */}
       <section id="contact" className="relative z-10 px-6 py-24 bg-slate-950/60">
         <FadeUp>
-          <h2 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
+          <h4 className="text-4xl md:text-5xl font-extrabold text-center mb-4">
             Get in{' '}
             <span className="bg-gradient-to-r from-orange-400 to-yellow-500 text-transparent bg-clip-text">
               Touch
             </span>
-          </h2>
+          </h4>
           <p className="text-gray-500 text-center mb-16">
             Open to new opportunities, collaborations, and interesting projects.
           </p>
